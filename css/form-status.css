@@ -1,0 +1,27 @@
+.form_responce {
+	display: none;
+	margin-top: 20px;
+}
+.form_responce.active{
+	display: block;
+	margin-top: 20px;
+}
+
+.success {
+	display: none;
+	color: green;
+}
+
+.error {
+	color: red;
+	display: none;
+}
+.success.active {
+	display: block;
+	color: green;
+}
+
+.error.active {
+	color: red;
+	display: block;
+}
