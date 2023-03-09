@@ -17,14 +17,32 @@ body {
 	padding: 0;
 }
 .header {
+	position: relative;
 	width: 100%;
 	margin-bottom: 445px;
 }
 
 .header_inner {
+	
 }
 .navigation {
-	position: relative;
+	z-index: 100000;
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	background: #000;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.navigation__inner{
+	
+	
+	max-width: 1360px;
+	width: 100vw;
+	
 	padding: 30px 0;
 	width: 100%;
 	display: flex;
@@ -84,7 +102,7 @@ body {
 }
 
 .header__banner {
-	margin-top: 20px;
+	margin-top: 200px;
 }
 .banner__title {
 	font-family: "Inter";
